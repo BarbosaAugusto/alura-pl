@@ -29,6 +29,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .container__botao {
@@ -58,4 +60,8 @@ body {
 
 .container__imagem {
     margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
